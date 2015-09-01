@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.stepDisabled { 
+	color: #EEEEEE;
+}
+
+.stepItem {	
+	display:table-cell; 
+	text-align:right; 
+}
+
+.stepDone { 
+	color:#009933; 
+}
+
+.stepCurrent { 
+	color:#FF0000;
+}
+
+.container {
+	width: 100%;
+	display: table;
+	text-align: center;
+}

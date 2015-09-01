@@ -1,0 +1,159 @@
+table.tblData, table.tblFind {
+    font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+
+table.tblData tbody tr td, table.tblFind tbody tr td {
+    padding: 4px;
+    background-color: #FFF;
+    display: table-cell;
+    font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    border-bottom: 2px solid #CCC;
+/*    border-top: 1px solid #CCC;*/
+}
+
+table.tblData tbody tr.odd td, table.tblFind tbody tr.odd td {
+    padding: 4px;
+    background-color: #EEE;
+    display: table-cell;
+    font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    border-bottom: 2px solid #CCC;
+/*    border-top: 1px solid #CCC;*/
+}
+
+
+table.tblData tbody tr th, table.tblData thead tr th, table.tblFind tbody tr th {
+    padding: 4px;
+    background: url(../images/dtable.gif) #FFF repeat-x scroll center left;
+    border-bottom: 2px solid #CCC;
+/*    border-top: 1px solid #CCC;*/
+    display: table-cell;
+    font: normal normal bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+td.top, th.top {
+    border-top: 3px solid #CCC;
+    display: table-cell;
+}
+
+td.bottom, th.bottom {
+    border-bottom: 3px solid #CCC;
+    display: table-cell;
+}
+
+td.start, th.start {
+    border-left: 3px solid #CCC;
+    display: table-cell;
+}
+
+td.cell, th.cell {
+    border-left: 1px solid #CCC;
+    display: table-cell;
+}
+
+td.end, th.end {
+    border-right: 3px solid #CCC;
+    display: table-cell;
+}
+
+table.tblData tbody tr:hover td, table.tblData tbody tr.odd:hover td {
+    background-color: #F00 !important;
+    display: table-cell;
+}
+
+.blank {
+    background: none;
+    border-top: 0px solid;
+    font: normal normal bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.selected, table.tblData tbody tr.selected td {
+    background-color: #009959;
+/*    display: table-cell;*/
+}
+
+.error, table.tblData tbody tr.error td {
+    background-color: #F00;
+/*    display: table-cell;*/
+}
+
+.waiting, table.tblData tbody tr.waiting td {
+	background-color: #FFDF00;
+/*    display: table-cell;*/
+}
+div.wrapper {
+	width: 98%;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	display: inline-table;
+}
+
+div.cell {
+	margin: 1px 2px 1px 2px;
+	display: table-cell;
+}
+
+div.top {
+    border-top: 3px solid #CCC;
+}
+
+div.bottom {
+    border-bottom: 3px solid #CCC;
+}
+
+div.start {
+    border-left: 3px solid #CCC;
+    border-bottom: 2px solid #CCC;
+}
+
+div.left {
+    border-left: 1px solid #CCC;
+    border-bottom: 2px solid #CCC;
+}
+
+div.end {
+    border-right: 3px solid #CCC;
+    border-bottom: 2px solid #CCC;
+}
+
+div.cell-foot {
+    border-bottom: 2px solid #CCC;
+}
+
+
+.principale {
+	width: 99%;
+	margin: 0px; 
+	padding: 0px;
+	border: 0px solid #000000;
+}
+
+.esterna, .interna {
+	width: 100%;
+	margin: 0px; 
+	padding: 0px;
+	border: 2px solid #000000;
+}
+
+.esterna td {
+	margin: 0px; 
+	padding: 5px;
+	border: 2px solid #000000;
+}
+
+td.container {
+	padding: 0px;
+}
+
+.interna {
+	border: 0px solid #000000;
+	border-spacing: 0px;
+}
+
+.interna td, .interna th {
+	margin: 0px; 
+	padding: 5px;
+	border: 0px solid #000000;
+}
